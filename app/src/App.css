@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  align-items: center;
+  background-image: -webkit-linear-gradient(left, #331C0E, #B9540C)
+}
+
