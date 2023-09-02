@@ -3,11 +3,13 @@ import React, { type ReactElement, useState, useEffect } from 'react';
 import { Animator } from '@arwes/react-animator';
 import { Text } from '@arwes/react-text';
 
+
 const signUp = () => {
     return(
         <div className="signUp">
             <Topic/>
             <Paragraph/>
+            <SignupForm/>
         </div>
     );
 }
@@ -45,12 +47,62 @@ const Paragraph = (): ReactElement => {
     return (
         <Animator active={active} duration={{ enter: 3.5, exit: 1 }}>
             <Text style={{ color: '#ddd' }} fixed>
-                <h3 className="paragraph_content">
+                <h3 className="paragraphContent">
                     Please, Enter Your Details to Register for the Game.
                 </h3>
             </Text>
         </Animator>
     );
 };
+
+const SignupForm = () => {
+    return (
+        <div className="container">
+            <form>
+                <div className="form-group">
+                    <div className="label">
+                        <label htmlFor="username">Username :</label>
+                    </div>
+                    <input type="text" className="form-control" id="username" placeholder="Enter your username"/>
+                </div>
+
+                <div className="form-group">
+                    <div className="label">
+                        <label htmlFor="email">Email :</label>
+                    </div>
+                    <input type="email" className="form-control" id="email" placeholder="Enter your email"/>
+                </div>
+
+                <div className="form-group">
+                    <div className="label">
+                        <label htmlFor="password">Password :</label>
+                    </div>
+                    <input type="password" className="form-control" id="password" placeholder="Enter your password"/>
+                </div>
+
+                <div className="form-group">
+                    <div className="label">
+                        <label htmlFor="university">University :</label>
+                    </div>
+                    <input type="text" className="form-control" id="university" placeholder="Enter your university"/>
+                </div>
+
+                <div className="form-group">
+                    <div className="label">
+                        <label htmlFor="whatsapp">WhatsApp :</label>
+                    </div>
+                    <input type="text" className="form-control" id="whatsapp" placeholder="Enter your WhatsApp number"/>
+                </div>
+
+                <button type="submit" className="btn btn-info signUpBtn">
+                    Sign Up
+                </button>
+            </form>
+        </div>
+    );
+};
+
+
+
 
 export default signUp;
