@@ -53,4 +53,6 @@ const Paragraph = (): ReactElement => {
     );
 };
 
+
+
 export default signUp;
