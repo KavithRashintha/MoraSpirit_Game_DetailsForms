@@ -47,9 +47,9 @@ const Paragraph = (): ReactElement => {
     return (
         <Animator active={active} duration={{ enter: 3.5, exit: 1 }}>
             <Text style={{ color: '#ddd' }} fixed>
-                <h3 className="paragraphContent">
+                <h4 className="paragraphContent">
                     Please, Enter Your Details to Register for the Game.
-                </h3>
+                </h4>
             </Text>
         </Animator>
     );
@@ -57,47 +57,49 @@ const Paragraph = (): ReactElement => {
 
 const SignupForm = () => {
     return (
-        <div className="container">
-            <form>
-                <div className="form-group">
-                    <div className="label">
-                        <label htmlFor="username">Username :</label>
+        <div className="outerContainer">
+            <div className="container">
+                <form>
+                    <div className="form-group">
+                        <div className="label">
+                            <label htmlFor="username">Username :</label>
+                        </div>
+                        <input type="text" className="form-control" id="username" placeholder="Username"/>
                     </div>
-                    <input type="text" className="form-control" id="username" placeholder="Enter your username"/>
-                </div>
 
-                <div className="form-group">
-                    <div className="label">
-                        <label htmlFor="email">Email :</label>
+                    <div className="form-group">
+                        <div className="label">
+                            <label htmlFor="email">Email :</label>
+                        </div>
+                        <input type="email" className="form-control" id="email" placeholder="Email"/>
                     </div>
-                    <input type="email" className="form-control" id="email" placeholder="Enter your email"/>
-                </div>
 
-                <div className="form-group">
-                    <div className="label">
-                        <label htmlFor="password">Password :</label>
+                    <div className="form-group">
+                        <div className="label">
+                            <label htmlFor="password">Password :</label>
+                        </div>
+                        <input type="password" className="form-control" id="password" placeholder="Password"/>
                     </div>
-                    <input type="password" className="form-control" id="password" placeholder="Enter your password"/>
-                </div>
 
-                <div className="form-group">
-                    <div className="label">
-                        <label htmlFor="university">University :</label>
+                    <div className="form-group">
+                        <div className="label">
+                            <label htmlFor="university">University :</label>
+                        </div>
+                        <input type="text" className="form-control" id="university" placeholder="University"/>
                     </div>
-                    <input type="text" className="form-control" id="university" placeholder="Enter your university"/>
-                </div>
 
-                <div className="form-group">
-                    <div className="label">
-                        <label htmlFor="whatsapp">WhatsApp :</label>
+                    <div className="form-group">
+                        <div className="label">
+                            <label htmlFor="whatsapp">WhatsApp :</label>
+                        </div>
+                        <input type="text" className="form-control" id="whatsapp" placeholder="WhatsApp number"/>
                     </div>
-                    <input type="text" className="form-control" id="whatsapp" placeholder="Enter your WhatsApp number"/>
-                </div>
 
-                <button type="submit" className="btn btn-info signUpBtn">
-                    Sign Up !
-                </button>
-            </form>
+                    <button type="submit" className="btn btn-info signUpBtn">
+                        Sign Up !
+                    </button>
+                </form>
+            </div>
         </div>
     );
 };
