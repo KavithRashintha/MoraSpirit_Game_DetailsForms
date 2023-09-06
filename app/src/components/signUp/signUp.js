@@ -67,19 +67,6 @@ const SignupForm = () => {
                         <input type="text" className="form-control" id="username" placeholder="Username"/>
                     </div>
 
-                    <div className="form-group">
-                        <div className="label">
-                            <label htmlFor="email">Email :</label>
-                        </div>
-                        <input type="email" className="form-control" id="email" placeholder="Email"/>
-                    </div>
-
-                    <div className="form-group">
-                        <div className="label">
-                            <label htmlFor="password">Password :</label>
-                        </div>
-                        <input type="password" className="form-control" id="password" placeholder="Password"/>
-                    </div>
 
                     <div className="form-group">
                         <div className="label">
@@ -95,7 +82,7 @@ const SignupForm = () => {
                         <input type="text" className="form-control" id="whatsapp" placeholder="WhatsApp number"/>
                     </div>
 
-                    <button type="submit" className="btn btn-info signUpBtn">
+                        <button type="submit" className="btn btn-info signUpBtn">
                         Sign Up !
                     </button>
                 </form>
