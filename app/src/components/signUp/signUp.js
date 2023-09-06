@@ -72,7 +72,12 @@ const SignupForm = () => {
                         <div className="label">
                             <label htmlFor="university">University :</label>
                         </div>
-                        <input type="text" className="form-control" id="university" placeholder="University"/>
+                        <select className="form-control" id="university">
+                            <option value="university1">University of Moratuwa</option>
+                            <option value="university2">University of Colombo</option>
+                            <option value="university3">University of Kelaniya</option>
+                            <option value="university3">University of J'Pura</option>
+                        </select>
                     </div>
 
                     <div className="form-group">
