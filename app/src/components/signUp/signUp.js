@@ -87,7 +87,7 @@ const SignupForm = () => {
                         <input type="text" className="form-control" id="whatsapp" placeholder="WhatsApp number"/>
                     </div>
 
-                        <button type="submit" className="btn btn-info signUpBtn">
+                        <button type="submit" className="btn btn-danger signUpBtn">
                         Sign Up !
                     </button>
                 </form>
