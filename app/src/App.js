@@ -5,7 +5,7 @@ import LogIn from "./components/logIn/logIn";
 function App() {
   return (
     <div className="App">
-      <LogIn/>
+      <SignUp/>
     </div>
   );
 }

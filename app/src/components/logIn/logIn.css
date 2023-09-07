@@ -1,0 +1,102 @@
+.signUp{
+    text-align: center;
+}
+
+.instructionTopic{
+    color: white;
+    font-size: 4vw;
+    margin: 9vh 0 0 0;
+}
+
+.paragraphContent{
+    margin: 0 0 0 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    border: 3px solid rgba(229, 130, 11, 0.79);
+    margin: 8vh 0 0 0;
+    padding: 7vh 0 0 0;
+    background-color: rgba(16, 0, 0, 0.56);
+}
+
+.form-group{
+    display: flex;
+    width: 30vw;
+    margin: 3vh 0 0 0;
+}
+
+.label{
+    display: flex;
+    align-items: center;
+    width: 12vw;
+    text-align: left;
+}
+
+.label label{
+    color: white;
+}
+
+.form-control::placeholder{
+    font-size: 15px;
+}
+
+.logInBtn{
+    margin: 5vh 0 0 0;
+    width: 10vw;
+    height: 6vh;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 420px) {
+    .instructionTopic{
+        font-size: 8vw;
+        margin: 14vh 0 2vh 0;
+    }
+
+    .paragraphContent{
+        font-size: 4vw;
+        width: 84vw;
+        margin: 1vh 0 2vh 0;
+    }
+
+    .outerContainer{
+        width: 75vw;
+        margin: -2vh 0 0 5vw;
+    }
+
+    .container{
+        padding: 4vh 0 0 0;
+        border: 3px solid rgba(229, 130, 11, 0.79);
+    }
+
+    .label{
+        display: none;
+    }
+
+    .form-group{
+        width: 55vw;
+    }
+
+    .form-control{
+        height: 5.5vh;
+    }
+
+    .form-control::placeholder{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .btn{
+        font-size: 12px !important;
+    }
+
+    .logInBtn{
+        width: 27vw;
+        font-size: 10px;
+    }
+}
