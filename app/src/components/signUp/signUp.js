@@ -57,7 +57,7 @@ const SignUpParagraph = (): ReactElement => {
 
 const SignupForm = () => {
     return (
-        <div className="outerContainer">
+        <div className="signUpOuterContainer">
             <div className="signUpContainer">
                 <form>
                     <div className="form-group">

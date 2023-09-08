@@ -33,6 +33,11 @@
   margin: 0 1vw 0 1vw;
 }
 
+.moraSpiritThemeMobile{
+  display: none;
+}
+
+
 .moraSpiritLogo{
   width: 70px;
   height: 70px;
@@ -41,5 +46,34 @@
 .slugLogo{
   width: 70px;
   height: 70px;
+}
+
+@media screen and (max-width: 420px) {
+  .footerInner{
+    padding: 1vh 0 0 0;
+  }
+
+  .moraSpiritTheme{
+    display: none;
+  }
+
+  .moraSpiritThemeMobile{
+    display: flex;
+    margin: 0.7vh 3vw 0 3vw;
+    color: white;
+    font-size: 13px;
+  }
+
+  .moraSpiritLogo{
+    width: 55px;
+    height: 55px;
+    margin: 0.5vh 0 0 -2vw;
+  }
+
+  .slugLogo{
+    width: 55px;
+    height: 55px;
+    margin: 0.5vh 0 0 0;
+  }
 }
 

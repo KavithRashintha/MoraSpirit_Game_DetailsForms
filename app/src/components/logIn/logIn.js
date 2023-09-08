@@ -58,7 +58,7 @@ const LogInParagraph = (): ReactElement => {
 
 const LogInForm = () => {
     return (
-        <div className="outerContainer">
+        <div className="logInOuterContainer">
             <div className="logInContainer">
                 <form>
                     <div className="form-group">
