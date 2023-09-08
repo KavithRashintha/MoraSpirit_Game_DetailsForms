@@ -12,11 +12,11 @@
     margin: 0 0 0 0;
 }
 
-.container{
+.signUpContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50vh;
+    height: 52vh;
     border: 3px solid rgba(229, 130, 11, 0.79);
     margin: 8vh 0 0 0;
     padding: 6vh 0 0 0;
@@ -69,7 +69,7 @@
         margin: -2vh 0 0 5vw;
     }
 
-    .container{
+    .signUpContainer{
         padding: 4vh 0 0 0;
         border: 3px solid rgba(229, 130, 11, 0.79);
     }

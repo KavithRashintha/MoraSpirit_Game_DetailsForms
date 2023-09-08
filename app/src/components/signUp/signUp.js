@@ -7,14 +7,14 @@ import { Text } from '@arwes/react-text';
 const signUp = () => {
     return(
         <div className="signUp">
-            <Topic/>
-            <Paragraph/>
+            <SignUpTopic/>
+            <SignUpParagraph/>
             <SignupForm/>
         </div>
     );
 }
 
-const Topic = (): ReactElement => {
+const SignUpTopic = (): ReactElement => {
     const [active, setActive] = useState(true);
 
     useEffect(() => {
@@ -36,7 +36,7 @@ const Topic = (): ReactElement => {
     );
 };
 
-const Paragraph = (): ReactElement => {
+const SignUpParagraph = (): ReactElement => {
     const [active, setActive] = useState(true);
 
     useEffect(() => {
@@ -58,7 +58,7 @@ const Paragraph = (): ReactElement => {
 const SignupForm = () => {
     return (
         <div className="outerContainer">
-            <div className="container">
+            <div className="signUpContainer">
                 <form>
                     <div className="form-group">
                         <div className="label">
@@ -87,7 +87,7 @@ const SignupForm = () => {
                         <input type="text" className="form-control" id="whatsapp" placeholder="WhatsApp number"/>
                     </div>
 
-                        <button type="submit" className="btn btn-danger signUpBtn">
+                    <button type="submit" className="btn btn-danger signUpBtn">
                         Sign Up !
                     </button>
                 </form>

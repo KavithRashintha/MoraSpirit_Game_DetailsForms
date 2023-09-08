@@ -8,14 +8,14 @@ import { Text } from '@arwes/react-text';
 const logIn = () => {
     return(
         <div className="signUp">
-            <Topic/>
-            <Paragraph/>
+            <LogInTopic/>
+            <LogInParagraph/>
             <LogInForm/>
         </div>
     );
 }
 
-const Topic = (): ReactElement => {
+const LogInTopic = (): ReactElement => {
     const [active, setActive] = useState(true);
 
     useEffect(() => {
@@ -37,7 +37,7 @@ const Topic = (): ReactElement => {
     );
 };
 
-const Paragraph = (): ReactElement => {
+const LogInParagraph = (): ReactElement => {
     const [active, setActive] = useState(true);
 
     useEffect(() => {
@@ -59,7 +59,7 @@ const Paragraph = (): ReactElement => {
 const LogInForm = () => {
     return (
         <div className="outerContainer">
-            <div className="container">
+            <div className="logInContainer">
                 <form>
                     <div className="form-group">
                         <div className="label">
