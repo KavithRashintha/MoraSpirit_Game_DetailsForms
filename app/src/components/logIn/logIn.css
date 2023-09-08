@@ -5,18 +5,25 @@
 .instructionTopic{
     color: white;
     font-size: 4vw;
-    margin: 9vh 0 0 0;
+    margin: 5vh 0 0 0;
 }
 
 .paragraphContent{
     margin: 0 0 0 0;
 }
 
+.outerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .logInContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 40vh;
+    height: 42vh;
+    width: 40vw;
     border: 3px solid rgba(229, 130, 11, 0.79);
     margin: 8vh 0 0 0;
     padding: 7vh 0 0 0;
@@ -70,7 +77,8 @@
     }
 
     .logInContainer{
-        padding: 4vh 0 0 0;
+        width: 75vw;
+        padding: 6vh 0 0 0;
         border: 3px solid rgba(229, 130, 11, 0.79);
     }
 
