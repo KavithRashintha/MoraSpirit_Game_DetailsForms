@@ -31,7 +31,7 @@ const LogInTopic = (): ReactElement => {
                 easing='outSine'
                 fixed
             >
-                <h1 className="instructionTopic">Welcome !</h1>
+                <h1 className="logInnstructionTopic">Welcome !</h1>
             </Text>
         </Animator>
     );
@@ -48,7 +48,7 @@ const LogInParagraph = (): ReactElement => {
     return (
         <Animator active={active} duration={{ enter: 3.5, exit: 1 }}>
             <Text style={{ color: '#ddd' }} fixed>
-                <h4 className="paragraphContent">
+                <h4 className="logInParagraphContent">
                     Please, Enter Your User Credentials to log in to the Game.
                 </h4>
             </Text>

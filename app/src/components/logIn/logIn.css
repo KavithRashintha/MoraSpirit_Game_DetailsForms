@@ -2,14 +2,14 @@
     text-align: center;
 }
 
-.instructionTopic{
+.logInnstructionTopic{
     color: white;
     font-size: 4vw;
     margin: 5vh 0 0 0;
 }
 
-.paragraphContent{
-    margin: 0 0 0 0;
+.logInParagraphContent{
+    margin: 2vh 0 0 0;
 }
 
 .outerContainer{
@@ -25,7 +25,7 @@
     height: 42vh;
     width: 40vw;
     border: 3px solid rgba(229, 130, 11, 0.79);
-    margin: 8vh 0 0 0;
+    margin: 8vh 0 3vh 0;
     padding: 7vh 0 0 0;
     background-color: rgba(16, 0, 0, 0.56);
 }
@@ -60,12 +60,12 @@
 /* Media Queries */
 
 @media screen and (max-width: 420px) {
-    .instructionTopic{
+    .logInnstructionTopic{
         font-size: 8vw;
         margin: 14vh 0 2vh 0;
     }
 
-    .paragraphContent{
+    .logInParagraphContent{
         font-size: 4vw;
         width: 84vw;
         margin: 1vh 0 2vh 0;

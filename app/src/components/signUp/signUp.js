@@ -30,7 +30,7 @@ const SignUpTopic = (): ReactElement => {
                 easing='outSine'
                 fixed
             >
-                <h1 className="instructionTopic">Welcome !</h1>
+                <h1 className="signUpInstructionTopic">Welcome !</h1>
             </Text>
         </Animator>
     );
@@ -47,7 +47,7 @@ const SignUpParagraph = (): ReactElement => {
     return (
         <Animator active={active} duration={{ enter: 3.5, exit: 1 }}>
             <Text style={{ color: '#ddd' }} fixed>
-                <h4 className="paragraphContent">
+                <h4 className="signUpParagraphContent">
                     Please, Enter Your Details to Register for the Game.
                 </h4>
             </Text>
@@ -95,6 +95,7 @@ const SignupForm = () => {
         </div>
     );
 };
+
 
 
 
