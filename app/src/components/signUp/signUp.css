@@ -57,7 +57,7 @@
 @media screen and (max-width: 420px) {
     .signUpInstructionTopic{
         font-size: 8vw;
-        margin: 6vh 0 0 0;
+        margin: 8vh 0 0 0;
     }
 
     .signUpParagraphContent{
@@ -68,7 +68,7 @@
 
     .signUpOuterContainer{
         width: 75vw;
-        margin: -2vh 0 0 3vw;
+        margin: -4vh 0 0 5vw;
     }
 
     .signUpContainer{
