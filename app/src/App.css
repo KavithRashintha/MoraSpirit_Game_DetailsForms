@@ -48,6 +48,30 @@
   height: 70px;
 }
 
+.logInDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2vh 0 0 0;
+  width: 20vw;
+  height: 6vh;
+  margin: -1vh 0 0 10.5vw;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
+.signUpDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.3vh 0 0 0;
+  width: 20vw;
+  height: 6vh;
+  margin: 5vh 0 -3.5vh 12vw;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
 @media screen and (max-width: 420px) {
   .footerInner{
     padding: 1vh 0 0 0;

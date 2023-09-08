@@ -47,9 +47,9 @@ const SignUpParagraph = (): ReactElement => {
     return (
         <Animator active={active} duration={{ enter: 3.5, exit: 1 }}>
             <Text style={{ color: '#ddd' }} fixed>
-                <h4 className="signUpParagraphContent">
+                <p className="signUpParagraphContent">
                     Please, Enter Your Details to Register for the Game.
-                </h4>
+                </p>
             </Text>
         </Animator>
     );

@@ -19,9 +19,9 @@
     height: 47vh;
     width: 44vw;
     border: 3px solid rgba(229, 130, 11, 0.79);
-    margin: 7.5vh 0 0.5vh 0;
+    margin: 7vh 0 -4vh 0;
     padding: 4vh 0 0 0;
-    background-color: rgba(16, 0, 0, 0.3);
+    background-color: rgba(16, 0, 0, 0.56);
 }
 
 .form-group{

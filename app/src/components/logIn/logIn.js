@@ -48,9 +48,9 @@ const LogInParagraph = (): ReactElement => {
     return (
         <Animator active={active} duration={{ enter: 3.5, exit: 1 }}>
             <Text style={{ color: '#ddd' }} fixed>
-                <h4 className="logInParagraphContent">
+                <p className="logInParagraphContent">
                     Please, Enter Your User Credentials to log in to the Game.
-                </h4>
+                </p>
             </Text>
         </Animator>
     );
