@@ -67,6 +67,12 @@ const SignupForm = () => {
                         <input type="text" className="form-control" id="username" placeholder="Username"/>
                     </div>
 
+                    <div className="form-group">
+                        <div className="label">
+                            <label htmlFor="password">Password :</label>
+                        </div>
+                        <input type="password" className="form-control" id="password" placeholder="Password"/>
+                    </div>
 
                     <div className="form-group">
                         <div className="label">
