@@ -63,16 +63,16 @@ const LogInForm = () => {
                 <form>
                     <div className="form-group">
                         <div className="label">
-                            <label htmlFor="username">Username :</label>
+                            <label htmlFor="whatsapp">WhatsApp :</label>
                         </div>
-                        <input type="text" className="form-control" id="username" placeholder="Username"/>
+                        <input type="text" className="form-control" id="whatsapp" placeholder="WhatsApp number"/>
                     </div>
 
                     <div className="form-group">
                         <div className="label">
-                            <label htmlFor="whatsapp">WhatsApp :</label>
+                            <label htmlFor="password">Password :</label>
                         </div>
-                        <input type="text" className="form-control" id="whatsapp" placeholder="WhatsApp number"/>
+                        <input type="password" className="form-control" id="password" placeholder="Password"/>
                     </div>
 
                     <div className="buttonContainer">
