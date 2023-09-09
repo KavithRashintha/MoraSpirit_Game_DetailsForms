@@ -74,8 +74,12 @@
 }
 
 @media screen and (max-width: 420px) {
+  .footerOuter{
+    margin: 8.25vh 0 0 0;
+  }
+
   .footerInner{
-    padding: 1vh 0 0 0;
+    padding: 0 0 0 0;
   }
 
   .moraSpiritTheme{
@@ -120,7 +124,7 @@
     padding: 1vh 0 0 0;
     width: 65vw;
     height: 5vh;
-    margin: 7vh 0 -3.5vh 10vw;
+    margin: 7vh 0 0.3vh 10vw;
     border-radius: 20px;
     background-color: rgba(192, 192, 192, 0.13);
   }

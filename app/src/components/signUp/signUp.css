@@ -73,7 +73,8 @@
 
     .signUpContainer{
         width: 75vw;
-        padding: 6vh 0 0 0;
+        height: 53vh;
+        padding: 3vh 0 0 0;
         border: 3px solid rgba(229, 130, 11, 0.79);
 
     }
