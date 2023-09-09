@@ -95,12 +95,12 @@
     }
 
     .form-control::placeholder{
-        font-size: 12px;
+        font-size: 14px;
         text-align: center;
     }
 
     .btn{
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
 
     .logInBtn{

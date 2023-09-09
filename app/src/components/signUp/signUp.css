@@ -92,12 +92,17 @@
     }
 
     .form-control::placeholder{
-        font-size: 11px;
+        font-size: 14px;
         text-align: center;
     }
 
+    #university{
+        text-align: center;
+        font-size: 13px;
+    }
+
     .btn{
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
 
     .signUpBtn{
